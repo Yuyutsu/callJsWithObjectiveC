@@ -14,6 +14,7 @@
 		3C7379291A0A8A8F00D34C95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7379281A0A8A8F00D34C95 /* Images.xcassets */; };
 		3C73792C1A0A8A8F00D34C95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C73792A1A0A8A8F00D34C95 /* LaunchScreen.xib */; };
 		3C7379381A0A8A8F00D34C95 /* callJSWithObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7379371A0A8A8F00D34C95 /* callJSWithObjectiveCTests.m */; };
+		3C7379421A0A8C9900D34C95 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 3C7379411A0A8C9900D34C95 /* demo.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3C7379311A0A8A8F00D34C95 /* callJSWithObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = callJSWithObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7379361A0A8A8F00D34C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C7379371A0A8A8F00D34C95 /* callJSWithObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = callJSWithObjectiveCTests.m; sourceTree = "<group>"; };
+		3C7379411A0A8C9900D34C95 /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		3C73791A1A0A8A8F00D34C95 /* callJSWithObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				3C7379411A0A8C9900D34C95 /* demo.js */,
 				3C73791F1A0A8A8F00D34C95 /* AppDelegate.h */,
 				3C7379201A0A8A8F00D34C95 /* AppDelegate.m */,
 				3C7379221A0A8A8F00D34C95 /* ViewController.h */,
@@ -201,6 +204,7 @@
 				3C7379271A0A8A8F00D34C95 /* Main.storyboard in Resources */,
 				3C73792C1A0A8A8F00D34C95 /* LaunchScreen.xib in Resources */,
 				3C7379291A0A8A8F00D34C95 /* Images.xcassets in Resources */,
+				3C7379421A0A8C9900D34C95 /* demo.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
